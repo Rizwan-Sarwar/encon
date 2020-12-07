@@ -1,0 +1,347 @@
+@media only screen and (min-width: 1025px) {
+    .our-projects .our-project-grid .our-project-image .our-project-bio {
+        bottom: -150px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .top .logo img {
+        width: 100px;
+    }
+    .top .info {
+        display: grid;
+        grid-template-columns: 27% 39.33% 33.33%;
+    }
+    .top .info .box {
+        display: flex;
+        padding: 3% 0%;
+    }
+    .services {
+        width: 90%;
+    }
+    .top .info {
+        display: grid;
+        grid-template-columns: 27% 39.33% 33.33%;
+    }
+    .our-projects {
+        grid-template-columns: 33% 33% 33%;
+        column-gap: 1%;
+    }
+}
+@media only screen and (max-width: 900px) {
+    .top .info {
+        display: none;
+    }
+    .before-nav .top .nav-icon{
+        display: inline-block;
+    }
+    .nav{
+        display: none;
+        width: 270px;
+        position: fixed;
+        z-index: 2;
+        top: 0;
+        right: 0;
+        background-color: white;
+        transition: 0.5s ease;
+        height: 100vh;
+    }
+    .nav .navbar-close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 35px;
+    }
+    .nav ul{
+        display: grid;
+        margin-top: 50px;
+    }
+    .nav ul li a {
+        color: black;
+        font-weight: 300;
+        font-size: 20px;
+        text-transform: capitalize;
+        display: block;
+        padding: 10px 10px;
+    }
+    .nav ul li a:hover{
+        color: green;
+    }
+    .services .service-top {
+        width: 100%;
+    }
+    .services .service-top h3 {
+        margin-bottom: 10px;
+    }
+    .services .service-bottom {
+        grid-template-columns: 50% 50%;
+        row-gap: 30px;
+    }
+    .services .service-bottom .box {
+        border: 1px solid #8080802b;
+    }
+    .about .about-detail {
+        grid-template-columns: 100%;
+    }
+    .about .about-detail .about-right {
+        padding: unset;
+    }
+    .about .about-detail .about-right .about-top h4 {
+        margin: 35px 0px 5px 0px;
+    }
+    .about .about-detail .about-right .about-bottom .about-box {
+        grid-template-columns: 12% 88%;
+    }
+    .about .about-detail .about-right .about-bottom .about-box .about-box-image img {
+        width: 70px;
+    }
+    .about .about-detail .about-right .about-bottom .about-box .about-box-detail {
+        padding: 7px 0px 0px 0px;
+    }
+    .contact {
+        grid-template-columns: 100%;
+        margin: 150px 0px 50px 0px;
+    }
+    .contact .contact-right .contact-bottom .contact-filed textarea {
+        height: 200px;
+    }
+    .contact .contact-right .contact-bottom .contact-filed button {
+        margin-top: 155px;
+    }
+    .blogs .blog-bottom {
+        grid-template-columns: 48% 48%;
+        column-gap: 4%;
+    }
+    .contact .contact-right .contact-top h4 {
+        font-size: 19px;
+    }
+    .contact .contact-right .contact-top h2 {
+        font-size: 26px;
+    }
+    .contact .contact-right .contact-bottom .contact-filed input {
+        font-size: 14px;
+    }
+    .subscribe {
+        height: 250px;
+        grid-template-columns: 100%;
+        grid-column-gap: 4%;
+    }
+    .subscribe .subscribe-left {
+        margin-top: 50px;
+    }
+    .subscribe .subscribe-right {
+        margin-top: unset;
+    }
+    footer .footer-top {
+        grid-template-columns: 100%;
+    }
+    footer .footer-top .footer-grid p img {
+        width: 135px;
+        margin-bottom: 15px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .our-projects {
+        grid-template-columns: 49% 49%;
+        column-gap: 2%;
+    }
+    .before-footer {
+        grid-template-columns: 50% 50%;
+        row-gap: 40px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .contact .contact-left {
+        margin: 0px auto;
+    }
+    .contact .contact-left img {
+        width: 80%;
+    }
+    .services .service-bottom {
+        grid-template-columns: 100%;
+    }
+    .about .about-detail .about-right .about-bottom .about-box {
+        grid-template-columns: 18% 82%;
+    }
+    .testimonials .testimonial-bottom {
+        grid-template-columns: 100%;
+    }
+    .blogs .blog-bottom {
+        grid-template-columns: 100%;
+    }
+    .subscribe {
+        padding: 30px 10% 30px 10%;
+    }
+    .subscribe .subscribe-left {
+        margin-top: unset;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .before-footer {
+        grid-template-columns: 100%;
+        row-gap: 25px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .nav {
+        width: 155px;
+    }
+    .cantainer {
+        width: 90%;
+        margin: 0% auto;
+    }
+    .services .service-top p {
+        font-size: 26px;
+    }
+    .services .service-bottom .box .service-icon h4 {
+        font-size: 1.3rem;
+    }
+    .services .service-bottom .box .service-icon p {
+        font-size: 13px;
+    }
+    .about .about-detail .about-right .about-bottom .about-box {
+        grid-template-columns: 20% 80%;
+    }
+    .about .about-detail .about-right .about-top h4 {
+        font-size: 19px;
+    }
+    .about .about-detail .about-right .about-top h2 {
+        font-size: 26px;
+    }
+    .about .about-detail .about-right .about-top p {
+        font-size: 14px;
+    }
+    .about .about-detail .about-right .about-bottom .about-box .about-box-detail h5 {
+        font-size: 19px;
+    }
+    .about .about-detail .about-right .about-bottom .about-box .about-box-detail p {
+        font-size: 14px;
+    }
+    .contact {
+        margin: 0px 0px 50px 0px;
+    }
+    .contact .contact-right .contact-bottom {
+        grid-template-columns: 100%;
+    }
+    .contact .contact-right .contact-bottom .contact-filed textarea {
+        height: 140px;
+        margin-bottom: 0px;
+    }
+    .contact .contact-right .contact-bottom .contact-filed button {
+        margin-top: unset;
+        font-size: 14px;
+    }
+    .contact .contact-right {
+        padding: 30px 30px 0px 30px;
+    }
+    .project {
+        margin-bottom: 150px;
+    }
+    .testimonials {
+        margin: 60px 0px;
+    }
+    .testimonials .testimonial-top {
+        margin-bottom: 80px;
+    }
+    .project .project-top h4 {
+        font-size: 19px;
+    }
+    .project .project-top h2 {
+        font-size: 26px;
+    }
+    .project .project-bottom .item-hover .image-detail h4 {
+        font-size: 16px;
+    }
+    .project .project-bottom .item-hover .image-detail h2 {
+        font-size: 26px;
+    }
+    .testimonials .testimonial-top h4 {
+        font-size: 19px;
+    }
+    .testimonials .testimonial-top h2 {
+        font-size: 26px;
+    }
+    .testimonials .testimonial-bottom {
+        margin: 0px 0px 30px 0px;
+        row-gap: 30px;
+    }
+    .testimonials .testimonial-bottom .testimonial img {
+        width: 75px;
+        height: 75px;
+    }
+    .testimonials .testimonial-bottom .testimonial p {
+        font-size: 14px;
+        margin: 30px 0px 20px 0px;
+    }
+    .testimonials .testimonial-bottom .testimonial h4 {
+        font-size: 16px;
+    }
+    .blogs {
+        padding: 40px 0px;
+    }
+    .blogs .blog-top h4 {
+        font-size: 19px;
+    }
+    .blogs .blog-top h2 {
+        font-size: 26px;
+    }
+    .blogs .blog-bottom .blog h3 a {
+        font-size: 1.2rem;
+    }
+    .blogs .blog-bottom .blog p {
+        font-size: 0.9rem;
+    }
+    .blogs .blog-bottom {
+        row-gap: 15px;
+    }
+    .subscribe {
+        padding: 30px 5% 30px 5%;
+    }
+    .subscribe .subscribe-left h3 {
+        font-size: 1.6rem;
+    }
+    .subscribe .subscribe-left p {
+        font-size: 0.9rem;
+    }
+    .subscribe .subscribe-right form .submit {
+        width: 30%;
+    }
+    footer {
+        padding: 70px 5%;
+    }
+    footer .footer-top .footer-grid p img {
+        margin-bottom: 10px;
+    }
+    footer .footer-top .footer-grid p {
+        font-size: 14px;
+    }
+    footer .footer-top .footer-grid ul li {
+        font-size: 15px;
+        margin-bottom: 14px;
+    }
+    footer .footer-bottom p {
+        font-size: 14px;
+
+    }
+    .our-projects {
+        grid-template-columns: 100%;
+        column-gap: unset;
+        row-gap: 30px;
+        margin: 0px 10%;
+    }
+    .nav ul li a {
+        font-size: 17px;
+        padding: 7px 10px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .about .about-detail .about-right .about-bottom .about-box {
+        grid-template-columns: 25% 75%;
+    }
+    .about .about-detail .about-right .about-bottom .about-box .about-box-detail {
+        padding: 6px 0px 0px 0px;
+        margin-bottom: 25px;
+    }
+    .our-projects {
+        margin: 0px 5%;
+    }
+}

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--Browser Tab Icon-->
+        <link rel="shortcut icon" href="images/logo/browser-logo.png">
+
+        <!--page title-->
+        <title>ENCON::CONTACT</title>
+
+        <!--style sheet-->
+        <link rel="stylesheet" href="css/style.css">
+
+        <!--font owesome-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+        <!--google font oswald-->
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+        <!--bootstrap CSS CDN-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+
+        <!--bootstrap jQuery and JS bundle w/ Popper.js -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+        
+        <!--mq(media query) file-->
+        <link rel="stylesheet" href="css/mq.css">
+
+        <!--my js-->
+        <script src="js/my.js"></script>
+    </head>
+    <body>
+        <!--before-nav-->
+        <div class="before-nav">
+            <div class="cantainer">
+                <div class="top">
+                    <div class="logo">
+                        <img src="images/logo/logo.png" alt="encon-logo">
+                    </div>
+                    <div class="nav-icon" onclick="navShow()" id="nav-icon">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                    <div class="info">
+                        <!--location-->
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="detail">
+                                <h4>karachi</h4>
+                            </div>
+                        </div>
+                        <!--phone number-->
+                        <div class="box">
+                            <div class="icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div class="detail">
+                                <h4>+92 21 34326805</h4>
+                            </div>
+                        </div>
+                        <!--mail-->
+                        <div class="box">
+                            <div class="icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="detail">
+                                <h4>info@encon.com.pk</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--nav-->
+        <div class="nav" id="navbar">
+            <div class="navbar-close" onclick="navHide()" id="nav-icon-close">
+                <i class="fas fa-times"></i>
+            </div>
+            <div class="cantainer">
+                <ul>
+                    <li><a href="index.html">home</a></li>
+                    <li><a href="about us.html">about us</a></li>
+                    <li><a href="our project.html">our projects</a></li>
+                    <li><a href="testimonial.html">testimonials</a></li>
+                    <li><a href="blog.html">blog</a></li>
+                    <li><a href="contact.html">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--slider image-->
+        <div class="slider-image">
+            <div class="slider">
+                <img src="images/slider/slider.jpg" alt="slider-image">
+            </div>
+            <div class="page-change">
+                <h2>Get In Touch</h2>
+                <p><a href="index.html">home</a> /  Contact Us</p>
+            </div>
+        </div>
+        <!--contact forms-->
+        <div class="cantainer-spacing">
+            <form class="needs-validation" novalidate>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01" class="label">First name</label>
+                        <input type="text" class="form-control form-control-lg input" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom02" class="label">Last name</label>
+                        <input type="text" class="form-control form-control-lg input" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom01" class="label">Email Address</label>
+                        <input type="email" class="form-control form-control-lg input" required>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                        <label for="validationCustom02" class="label">Tel. Number</label>
+                        <input type="number" class="form-control form-control-lg input" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1" class="label">Message</label>
+                    <textarea class="form-control form-control-lg input" rows="12"></textarea>
+                  </div>
+                <button class="send" type="submit">send message</button>
+              </form>
+        </div>
+        <div class="before-footer">
+            <!--box 1-->
+            <div class="before-footer-box">
+                <h3>Our Philosphy</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+            </div>
+            <!--box 2-->
+            <div class="before-footer-box">
+                <h3>Academics Principle</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+            </div>
+            <!--box 3-->
+            <div class="before-footer-box">
+                <h3>Key of Success</h3>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis recusandae, iure repellat quis delectus ea? Dolore, amet reprehenderit.</p>
+            </div>
+        </div>
+        <!--footer-->
+        <footer>
+            <div class="footer-top">
+                <!--first grid-->
+                <div class="footer-grid">
+                    <p><img src="images/logo/logo.png" alt="footer-logo"></p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae nemo minima qui dolor, iusto iure.</p>
+                    <p><a href="#">learn more</a></p>
+                </div>
+                <!--second grid-->
+                <div class="footer-grid">
+                    <h3><span>OUR COMPANY</span></h3>
+                    <ul>
+                        <li><a href="#">about</a></li>
+                        <li><a href="#">news</a></li>
+                        <li><a href="#">services</a></li>
+                        <li><a href="#">our team</a></li>
+                        <li><a href="#">careers</a></li>
+                        <li><a href="#">projects</a></li>
+                    </ul>
+                </div>
+                <!--third grid-->
+                <div class="footer-grid">
+                    <h3><span>OUR SERVICES</span></h3>
+                    <ul>
+                        <li><a href="#">Industrial</a></li>
+                        <li><a href="#">Construction</a></li>
+                        <li><a href="#">Remodeling</a></li>
+                    </ul>
+                </div>
+                <!--fourth grid-->
+                <div class="footer-grid">
+                    <h3><span>CONTACT</span></h3>
+                    <ul>
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Support Community</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Our Partners</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>Copyright ©2020 All rights reserved | This template is made with <i class="fas fa-heart"></i> by Rizwan Sarwar</p>
+            </div>
+        </footer>
+    </body>
+</html>
